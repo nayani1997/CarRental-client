@@ -1,0 +1,127 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+  box-shadow: 1px 2px 10px gray;
+}
+.navbar {
+  padding: 0%;
+}
+.navbar-brand img {
+  width: 250px;
+  height: 100px;
+}
+.navbar-nav .nav-link.active {
+  color: rgb(174, 35, 35) !important;
+}
+.navbar-nav .nav-link {
+  color: black;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+}
+.navbar-collapse button {
+  color: antiquewhite;
+  border: 1px solid transparent;
+  background-color: rgb(174, 35, 35);
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-left: 100px !important;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+}
+.navbar-collapse button:hover {
+  background-color: darkblue;
+}
+/*Home*/
+.home-container {
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(39, 27, 27, 0),
+      rgba(61, 41, 41, 0.116)
+    ),
+    url(assets/blue-jeep-photo-shooting-sunset_114579-4043.jpg);
+  display: flex;
+  text-align: center;
+  align-content: center;
+  margin: 0%;
+}
+.home-container h1 {
+  color: rgb(225, 19, 19);
+  text-shadow: 2px 2px 3px white;
+  font-size: 50px;
+  font-weight: 600;
+}
+.home-container p {
+  color: black;
+  text-shadow: 2px 2px 3px white;
+  font-size: 25px;
+  font-weight: 600;
+}
+.work-container button {
+  color: antiquewhite;
+  border: 1px solid transparent;
+  background-color: rgb(174, 35, 35);
+  padding: 10px 20px;
+  border-radius: 20px;
+
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+}
+.work-container span {
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+}
+.work-container span i {
+  color: maroon;
+}
+.work-container button:hover {
+  background-color: darkblue;
+}
+
+.page-container {
+  display: flex;
+  align-items: start;
+}
+aside {
+  text-align: center;
+  height: 100vh;
+  padding: 50px 20px;
+  border-right: 1px solid gray;
+  position: sticky;
+  top: 0;
+}
+aside button {
+  width: 100%;
+  height: 50px;
+  border: none;
+  margin-bottom: 10px;
+  background: #c04040;
+  color: snow;
+  font-size: 18px;
+  font-weight: 600;
+}
+.seat {
+  width: 30px;
+}
+/*Contact */
+.contact-container,
+.service-container,
+.car-container {
+  background-image: linear-gradient(to right, #e63946, #000000);
+  width: 100%;
+  height: 35vh;
+}
+.car-background{
+  background-image: url(assets/sky-sights.avif);
+ 
+}
